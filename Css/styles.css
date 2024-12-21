@@ -1,0 +1,91 @@
+/* estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #232424;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px #7EB40F;
+    text-align: center;
+}
+
+h1 {
+    color: #7EB40F;
+    
+}
+
+/* apartrado de productos  */
+.productos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.producto {
+    background: #f9f9f9;
+    border: 3px solid #7EB40F;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    width: 45%;
+}
+
+.producto h2 {
+    margin: 10px 0;
+}
+
+.producto p {
+    font-size: 16px;
+    color: #555;
+}
+
+.producto-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #7EB40F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.7s;
+}
+
+button:hover {
+    background-color: #374f09;
+    transition: 0.2s;
+}
+
+/* apartado de carrito */
+.carrito {
+    margin-top: 30px;
+    background: #e9f5ff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 3px solid #7EB40F;
+    text-align: left;
+}
+
+#listaCarrito {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaCarrito li {
+    margin: 5px 0;
+}

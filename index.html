@@ -1,0 +1,35 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carrito de Compras</title>
+        <link rel="stylesheet" href="./Css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Carrito de Compras</h1>
+            <div class="productos">
+                <div class="producto">
+                    <img src="./imgs/protein.png" alt="Proteína" class="producto-img">
+                    <h2>Proteína</h2>
+                    <p>Precio: $25</p>
+                    <button onclick="agregarProducto('Proteína', 25)">Agregar al Carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="./imgs/creatine.png" alt="Creatina" class="producto-img">
+                    <h2>Creatina</h2>
+                    <p>Precio: $15</p>
+                    <button onclick="agregarProducto('Creatina', 15)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <div class="carrito">
+                <h2>Tu Carrito</h2>
+                <ul id="listaCarrito"></ul>
+                <p><strong>Total: $<span id="totalCarrito">0</span></strong></p>
+                <button onclick="finalizarCompra()">Finalizar Compra</button>
+            </div>
+        </div>
+        <script src="./Js/Untitled-1.js"></script>
+    </body>
+    </html>
